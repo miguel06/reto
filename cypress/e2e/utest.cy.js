@@ -10,7 +10,7 @@ describe("crear nuevo usuario", () => {
         cy.get('.unauthenticated-nav-bar__sign-up').click()
         cy.get('#firstName').type("Miguel")
         cy.get('#lastName').type("Cruz")
-        cy.get('#email').type("miguelf.cruz93@gmail.com")
+        cy.get('#email').type("miguelf.cruz93arias@gmail.com")
         cy.get('#birthMonth').select(6)
         cy.get('#birthDay').select("19")
         cy.get('#birthYear').select(12)
