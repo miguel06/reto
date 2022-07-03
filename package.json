@@ -1,0 +1,14 @@
+{
+  "name": "reto",
+  "version": "1.0.0",
+  "description": "Reto Técnico de Automatización",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/utest.cy.js --browser chrome"
+  },
+  "author": "Miguel Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
